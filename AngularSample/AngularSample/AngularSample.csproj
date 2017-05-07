@@ -148,6 +148,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\OrderByHeaderCss.css" />
+    <Content Include="HTML\OrderByFilterUsingHeader.html" />
     <Content Include="HTML\OrderByFilter.html" />
     <Content Include="Script_Angular\angular-route.js" />
     <Content Include="Script_Angular\angular.js" />
@@ -174,6 +176,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Script_Angular\OrderByFilterUsingHeader.js" />
     <Content Include="Script_Angular\OrderByFilterScript.js" />
     <Content Include="Script_Angular\FilterScript.js" />
     <Content Include="Web.config" />

@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../Content/OrderByHeaderCss.css" rel="stylesheet" />
+    <script src="../Script_Angular/angular.js"></script>
+    <script src="../Script_Angular/OrderByFilterUsingHeader.js"></script>
+
+    <!--<style>
+        table {
+            border: 1px solid gray;
+            width: 100%;
+        }
+
+        td {
+            border: 1px solid gray;
+            width: 10%;
+        }
+
+        th {
+            border: 1px solid gray;
+            text-align: left;
+        }
+    </style>-->
+
+</head>
+<body ng-app="myApp">
+    <div ng-controller="myController">
+
+        <br /><br />
+        <table cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th ng-click="sortData('Name')">
+                        Name
+                        <div ng-class="getSortClass('Name')"></div>
+                    </th>
+                    <th ng-click="sortData('DateOfBirth')">
+                        Date Of Birth
+                        <div ng-class="getSortClass('DateOfBirth')"></div>
+                    </th>
+                    <th ng-click="sortData('Gender')">
+                        Gender
+                        <div ng-class="getSortClass('Gender')"></div>
+                    </th>
+                    <th ng-click="sortData('Salary')">
+                        Salary (Number)
+                        <div ng-class="getSortClass('Salary')"></div>
+                    </th>
+                    <th ng-click="sortData('Salary')">
+                        Salary (Currency)
+                        <div ng-class="getSortClass('Salary')"></div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--<tr ng-repeat="employee in employees |orderBy:'Name ':false">-->
+                <tr ng-repeat="employee in employees |orderBy:sortColumn:reverseSort ">
+                    <td>{{employee.Name|uppercase}}</td>
+                    <td>{{employee.DateOfBirth | date:"dd/MM/yyyy" }}</td>
+                    <td>{{employee.Gender |lowercase}}</td>
+                    <td>{{employee.Salary | number:5 }}</td>
+                    <td>{{employee.Salary | currency:"₹":1 }}</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+</body>
+</html>
