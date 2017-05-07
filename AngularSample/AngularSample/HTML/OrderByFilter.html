@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title></title>
     <script src="../Script_Angular/angular.js"></script>
-    <script src="../Script_Angular/FilterScript.js"></script>
+    <script src="../Script_Angular/OrderByFilterScript.js"></script>
     <style>
         table {
             border: 1px solid gray;
@@ -25,7 +25,7 @@
 </head>
 <body ng-app="myApp">
     <div ng-controller="myController">
-        Rows to Display:  <input type="number" step="1" min="0" max="5"  ng-model="rowLimit" />
+      
         <br /><br />
         <table cellpadding="10" cellspacing="0">
             <thead>
@@ -38,7 +38,8 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="employee in employees | limitTo:rowLimit">
+                <!--<tr ng-repeat="employee in employees |orderBy:'Name ':false">-->
+                <tr ng-repeat="employee in employees |orderBy:'-Name'">
                     <td>{{employee.Name|uppercase}}</td>
                     <td>{{employee.DateOfBirth | date:"dd/MM/yyyy" }}</td>
                     <td>{{employee.Gender |lowercase}}</td>

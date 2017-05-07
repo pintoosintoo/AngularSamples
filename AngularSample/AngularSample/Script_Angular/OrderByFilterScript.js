@@ -4,11 +4,10 @@ var myApp = angular.module("myApp", []).controller("myController", function ($sc
 
     var employees = [
         { Name: "Ben", DateOfBirth: new Date("November 23, 1980"), Gender: "Male", Salary: 5644449646.2659 },
-        { Name: "Sara", DateOfBirth: new Date("May 5, 1970"), Gender: "Female", Salary: 50001 },
+        { Name: "Todd", DateOfBirth: new Date("May 5, 1970"), Gender: "Female", Salary: 60000 },
         { Name: "Mark", DateOfBirth: new Date("May 5, 1970"), Gender: "Male", Salary: 500000 },
         { Name: "Pam", DateOfBirth: new Date("October 27, 1979"), Gender: "Female", Salary: 530000.59 },
-        { Name: "Todd", DateOfBirth: new Date("December 30, 1983"), Gender: "Male", Salary: 60000 }
+        { Name: "Todd", DateOfBirth: new Date("December 30, 1983"), Gender: "Male", Salary: 60001 }
     ];
     $scope.employees = employees;
-    $scope.rowLimit = 2;
 });
