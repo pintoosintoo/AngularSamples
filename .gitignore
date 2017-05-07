@@ -45,3 +45,13 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.pdb
+AngularSample/AngularSample/bin/AngularSample.dll
+*.config
+AngularSample/AngularSample/bin/Microsoft.AI.DependencyCollector.xml
+*.xml
+AngularSample/AngularSample/bin/roslyn/csc.exe
+*.rsp
+AngularSample/AngularSample/bin/roslyn/csi.exe
+*.dll
+*.exe
