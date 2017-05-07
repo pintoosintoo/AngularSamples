@@ -25,7 +25,12 @@
 </head>
 <body ng-app="myApp">
     <div ng-controller="myController">
-      
+        Order By : <select ng-model="sortColumn">
+            <option value="+Name">Name Asc</option>
+            <option value="-Name">Name Desc</option>
+            <option value="+DateOfBirth">DateOfBirth ASC</option>
+            <option value="-DateOfBirth">DateOfBirth Desc</option>
+        </select>
         <br /><br />
         <table cellpadding="10" cellspacing="0">
             <thead>
@@ -39,7 +44,7 @@
             </thead>
             <tbody>
                 <!--<tr ng-repeat="employee in employees |orderBy:'Name ':false">-->
-                <tr ng-repeat="employee in employees |orderBy:'-Name'">
+                <tr ng-repeat="employee in employees |orderBy:sortColumn:'-Gender'">
                     <td>{{employee.Name|uppercase}}</td>
                     <td>{{employee.DateOfBirth | date:"dd/MM/yyyy" }}</td>
                     <td>{{employee.Gender |lowercase}}</td>
