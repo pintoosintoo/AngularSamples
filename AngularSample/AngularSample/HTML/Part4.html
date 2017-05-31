@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="../Script_Angular/angular.js"></script>
+    <script src="../Script_Angular/Part4.js"></script>
+</head>
+<body>
+    <div ng-app="myapp">
+        <div ng-controller="ctrl">
+            <div>Name: {{country.CountryName}} </div>
+            <div style="clear:both"></div>
+            <div>State : {{country.State}} </div><div style="clear:both">Image Liked: </div>
+            <div><img ng-src="{{country.ImageLiked}}" alt="liked" />  </div>
+        </div>
+    </div>
+</body>
+</html>

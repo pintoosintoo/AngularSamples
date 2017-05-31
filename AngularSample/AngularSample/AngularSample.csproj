@@ -155,6 +155,9 @@
     <Content Include="HTML\OrderByFilter.html" />
     <Content Include="HTML\Part2.html" />
     <Content Include="HTML\Part3.html" />
+    <Content Include="HTML\Part4.html" />
+    <Content Include="Images\angular-icon-1.svg" />
+    <Content Include="Images\Angular.png" />
     <Content Include="Script_Angular\angular-route.js" />
     <Content Include="Script_Angular\angular.js" />
     <Content Include="Content\bootstrap.css" />
@@ -185,6 +188,7 @@
     <Content Include="Script_Angular\FilterScript.js" />
     <Content Include="Script_Angular\Part1.js" />
     <Content Include="Script_Angular\Part3.js" />
+    <Content Include="Script_Angular\Part4.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
