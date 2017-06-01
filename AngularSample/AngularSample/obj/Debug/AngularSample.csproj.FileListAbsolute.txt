@@ -65,3 +65,10 @@ C:\Users\Saurabh\Documents\GitHub\AngularSamples\AngularSample\AngularSample\bin
 C:\Users\Saurabh\Documents\GitHub\AngularSamples\AngularSample\AngularSample\obj\Debug\AngularSample.csprojResolveAssemblyReference.cache
 C:\Users\Saurabh\Documents\GitHub\AngularSamples\AngularSample\AngularSample\obj\Debug\AngularSample.dll
 C:\Users\Saurabh\Documents\GitHub\AngularSamples\AngularSample\AngularSample\obj\Debug\AngularSample.pdb
+C:\Users\Saurabh\Documents\GitHub\AngularSamples\AngularSample\AngularSample\bin\System.Net.Http.Formatting.dll
+C:\Users\Saurabh\Documents\GitHub\AngularSamples\AngularSample\AngularSample\bin\System.Web.Cors.dll
+C:\Users\Saurabh\Documents\GitHub\AngularSamples\AngularSample\AngularSample\bin\System.Web.Http.Cors.dll
+C:\Users\Saurabh\Documents\GitHub\AngularSamples\AngularSample\AngularSample\bin\System.Web.Http.dll
+C:\Users\Saurabh\Documents\GitHub\AngularSamples\AngularSample\AngularSample\bin\System.Net.Http.Formatting.xml
+C:\Users\Saurabh\Documents\GitHub\AngularSamples\AngularSample\AngularSample\bin\System.Web.Http.xml
+C:\Users\Saurabh\Documents\GitHub\AngularSamples\AngularSample\AngularSample\bin\System.Web.Http.Cors.xml
