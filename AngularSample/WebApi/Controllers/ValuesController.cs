@@ -9,6 +9,7 @@ using System.Web.Http.Cors;
 namespace WebApi.Controllers
 {
     //[Authorize]
+    [EnableCors("*", "*", "*")]
     public class ValuesController : ApiController
     {
         // GET api/values
@@ -24,7 +25,7 @@ namespace WebApi.Controllers
         }
 
         // POST api/values
-        [EnableCors("*","*","*")]
+        
         [HttpOptions]
         public string Post([FromBody]string value)
         {
